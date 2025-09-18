@@ -1,4 +1,4 @@
-Got it 👍 — here’s a **single clean `README.md`** specifically for a **Kerberos + NFS setup POC**:
+
 
 ````markdown
 # Kerberos NFS POC
@@ -67,3 +67,4 @@ sudo mount -t nfs4 -o sec=krb5p server:/srv/nfs /mnt
 * `sec=krb5` → Authentication only
 * `sec=krb5i` → Authentication + Integrity
 * `sec=krb5p` → Authentication + Integrity + Privacy (encryption)
+

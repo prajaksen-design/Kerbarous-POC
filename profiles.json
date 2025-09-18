@@ -1,0 +1,20 @@
+[
+  {
+    "ShareName": "finance",
+    "Path": "C:\\NFS\\Finance",
+    "ADGroup": "ARYA\\Finance-Users", 
+    "Permission": "modify"
+  },
+  {
+    "ShareName": "hr",
+    "Path": "C:\\NFS\\HR",
+    "ADGroup": "ARYA\\HR-Users",
+    "Permission": "modify"
+  },
+  {
+    "ShareName": "public", 
+    "Path": "C:\\NFS\\Public",
+    "ADGroup": "ARYA\\ReadOnly-Users",
+    "Permission": "read"
+  }
+]
